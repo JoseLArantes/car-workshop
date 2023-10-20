@@ -1,5 +1,5 @@
 const axios = require('axios');
-const carsGarageUrl = 'YOUR_CARS_GARAGE_API_ENDPOINT';
+const carsGarageUrl = 'https://otosiyvq1g.execute-api.us-east-1.amazonaws.com/dev/cars-garage';
 
 module.exports.handler = async (event) => {
   const { plate, newColor } = JSON.parse(event.body);

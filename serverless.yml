@@ -1,5 +1,5 @@
 service: car-painting
-frameworkVersion: "2"
+frameworkVersion: "3"
 provider:
   name: aws
   runtime: nodejs14.x
@@ -8,3 +8,19 @@ functions:
     handler: src/carsGarage/handler.handler
   paintCar:
     handler: src/paintCar/handler.handler
+  # Define the HTTP events for the functions
+  carsGarageApi:
+    handler: src/carsGarage/handler.handler
+    events:
+      - http:
+          path: cars-garage
+          method: get
+  paintCarApi:
+    handler: src/paintCar/handler.handler
+    events:
+      - http:
+          path: paint-car
+          method: post
+
+plugins:
+  - serverless-offline
