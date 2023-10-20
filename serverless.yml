@@ -1,0 +1,10 @@
+service: car-painting
+frameworkVersion: "2"
+provider:
+  name: aws
+  runtime: nodejs14.x
+functions:
+  carsGarage:
+    handler: src/carsGarage/handler.handler
+  paintCar:
+    handler: src/paintCar/handler.handler

@@ -1,0 +1,12 @@
+[
+    { "model": "Car1", "color": "Red", "plate": "ABC123" },
+    { "model": "Car2", "color": "Blue", "plate": "DEF456" },
+    { "model": "Car3", "color": "Green", "plate": "GHI789" },
+    { "model": "Car4", "color": "Red", "plate": "JKL012" },
+    { "model": "Car5", "color": "Blue", "plate": "MNO345" },
+    { "model": "Car6", "color": "Green", "plate": "PQR678" },
+    { "model": "Car7", "color": "Red", "plate": "STU901" },
+    { "model": "Car8", "color": "Blue", "plate": "VWX234" },
+    { "model": "Car9", "color": "Green", "plate": "YZA567" },
+    { "model": "Car10", "color": "Red", "plate": "BCD890" }
+  ]
